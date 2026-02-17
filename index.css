@@ -1,0 +1,28 @@
+/* Style général */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  margin: 40px;
+  line-height: 1.5;}
+
+body p:first-child {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 0;}
+
+body p:nth-child(2) {
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 10px;}
+
+body p:nth-child(3) {
+  color: #555;
+  margin-bottom: 25px;}
+
+body p:nth-child(n+4) {
+  margin: 6px 0;
+  padding-left: 10px;
+  border-left: 3px solid #000;
+  font-size: 15px;}
