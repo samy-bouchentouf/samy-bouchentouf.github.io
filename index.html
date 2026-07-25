@@ -2,7 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>Samy Bouchentouf - Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -12,14 +19,20 @@
 
     <header>
         <h1>Samy Bouchentouf</h1>
-        <p class="subtitle">Engineering Student | Mines Paris - PSL</p>
-        <p>
-            Email · Phone · 
-            <a href="#">LinkedIn</a> · 
-            <a href="#">GitHub</a>
-        </p>
-    </header>
 
+        <p class="subtitle">
+            Engineering Student at Mines Paris - PSL
+        </p>
+
+        <div class="contact-bar">
+            <p>
+                samy.bouchentouf@etu.minesparis.psl.eu ·
+                +33 7 83 66 93 60 ·
+                <a href="https://fr.linkedin.com/in/samy-bouchentouf-64266a377">LinkedIn</a> · 
+                <a href="https://github.com/samy-bouchentouf">GitHub</a>
+            </p>
+        </div>
+    </header>
 
     <section>
         <h2>Education</h2>
@@ -40,19 +53,7 @@
             <p>Preparatory Classes MPSI / MP*</p>
         </div>
 
-        <div class="entry">
-            <div class="title">
-                <strong>Lycée Darius Milhaud</strong>
-                <span>2020 – 2023</span>
-            </div>
-            <p>
-                French Baccalaureate in Mathematics and Physics,
-                Highest Honors
-            </p>
-        </div>
-
     </section>
-
 
     <section>
         <h2>Projects</h2>
@@ -60,7 +61,18 @@
         <div class="entry">
 
             <div class="title">
-                <strong>LKB AI Hub — Scientific Knowledge Retrieval Platform</strong>
+                <div>
+                    <strong>
+                        LKB AI Hub — Scientific Knowledge Retrieval Platform
+                    </strong>
+
+                    <a href="https://github.com/samy-bouchentouf/LKB"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        [GitHub]
+                    </a>
+                </div>
+
                 <span>July 2026</span>
             </div>
 
@@ -70,16 +82,13 @@
 
             <ul>
                 <li>
-                    Developed a Retrieval-Augmented Generation (RAG) platform
-                    to assist scientific knowledge retrieval in a laboratory environment.
+                    Developed a Retrieval-Augmented Generation (RAG) platform for scientific knowledge retrieval,
+                    combining semantic search (ChromaDB) and lexical search (BM25).
                 </li>
+
                 <li>
-                    Designed a hybrid retrieval pipeline combining semantic search
-                    (ChromaDB vector search) and lexical search (BM25).
-                </li>
-                <li>
-                    Implemented conversational capabilities including question
-                    rewriting, persistent memory, and source attribution.
+                    Implemented conversational AI features including query rewriting, persistent memory,
+                    and source attribution.
                 </li>
             </ul>
 
@@ -93,8 +102,7 @@
 
     </section>
 
-
-    <section>
+    <section class="skills">
         <h2>Technical Skills</h2>
 
         <p>
@@ -104,8 +112,11 @@
 
         <p>
             <strong>AI & Retrieval:</strong>
-            Retrieval-Augmented Generation (RAG), Large Language Models,
-            Embeddings, Vector Search, BM25
+            Retrieval-Augmented Generation (RAG),
+            Large Language Models,
+            Embeddings,
+            Vector Search,
+            BM25
         </p>
 
         <p>
@@ -114,7 +125,6 @@
         </p>
 
     </section>
-
 
     <section>
         <h2>Experience</h2>
@@ -127,15 +137,11 @@
 
             <ul>
                 <li>
-                    Participated in preventive, corrective, and regulatory
-                    maintenance activities on public transportation vehicles.
-                </li>
-                <li>
-                    Assisted with troubleshooting on thermal and electric vehicles.
+                    Participated in regulatory maintenance activities
+                    on public transportation vehicles.
                 </li>
             </ul>
         </div>
-
 
         <div class="entry">
             <div class="title">
@@ -149,7 +155,6 @@
                 </li>
             </ul>
         </div>
-
 
         <div class="entry">
             <div class="title">
@@ -167,17 +172,17 @@
 
     </section>
 
-
     <section>
         <h2>Languages</h2>
 
         <p>
-            French (Native) · English (Professional proficiency) · 
-            Spanish (Intermediate) · Arabic (A2)
+            French (Native) · English (Professional) ·
+            Spanish (Intermediate) · Arabic (Basic)
         </p>
 
     </section>
 
+    <div class="bottom-line"></div>
 
 </div>
 
