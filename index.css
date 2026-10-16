@@ -91,6 +91,10 @@ section {
     margin-bottom: 16px;
 }
 
+.projects .entry + .entry {
+    margin-top: 10px;
+}
+
 .skills p {
     margin-bottom: 8px;
 }
